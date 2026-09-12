@@ -4,5 +4,12 @@ print("Habla manito")
 def suma(a, b):
     return a + b
 
-if __name__ == "__main__":
-    print(suma(5, 3))
+def resta(a, b):
+    return a - b
+
+int1 = int(input("Ingrese el primer número: "))
+int2 = int(input("Ingrese el segundo número: "))    
+
+
+print("La suma es:", suma(int1, int2))
+print("La resta es:", resta(int1, int2))
