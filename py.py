@@ -1,4 +1,8 @@
-print("Habla manito")
+print(30*"-")
+print(30*"-")
+print("Calculadora de suma y resta")
+print(30*"-")
+print(30*"-")
 
 
 def suma(a, b):
@@ -13,3 +17,5 @@ int2 = int(input("Ingrese el segundo número: "))
 
 print("La suma es:", suma(int1, int2))
 print("La resta es:", resta(int1, int2))
+
+
