@@ -19,3 +19,11 @@ print("La suma es:", suma(int1, int2))
 print("La resta es:", resta(int1, int2))
 
 
+def multiplicacion(a, b):
+    return a * b
+
+def division(a, b):
+    return a / b
+
+print("La multiplicación es:", multiplicacion(int1, int2))
+print("La división es:", division(int1, int2))
